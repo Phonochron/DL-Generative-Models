@@ -1,0 +1,72 @@
+{
+  "run_id": "phase4-mlp-seed42",
+  "purpose": "AI-assisted local reference",
+  "seed": 42,
+  "split_sha256": "2e145a15c45d1fa2130ab476217cd724ed49ace4231f56239448f689aa41b857",
+  "batch_size": 128,
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "precision": "FP32",
+  "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "python": "3.11.17",
+  "pytorch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "classifier": {
+    "architecture": [
+      784,
+      256,
+      64,
+      10
+    ],
+    "epochs": 40,
+    "best_epoch": 36,
+    "val": {
+      "loss": 0.4037794216700963,
+      "accuracy": 0.8968571428571429
+    },
+    "test_accuracy": 0.9001428571428571,
+    "test_correct": 6301,
+    "test_images": 7000,
+    "target_met": true,
+    "training_seconds": 52.88624139998865
+  },
+  "decoder": {
+    "architecture": [
+      64,
+      256,
+      784
+    ],
+    "epochs": 30,
+    "best_epoch": 30,
+    "val": {
+      "loss": 0.017801224061420987
+    },
+    "training_seconds": 31.257091599982232,
+    "classifier_state_unchanged": true
+  },
+  "checkpoint_sha256": {
+    "classifier": "855e83353026a8803b00f97d5f4a9542f169446aedb67a1d3e6d25380cd737f0",
+    "decoder": "17626bc79182909547dca197dfa72d02c9e0c1680796707bbcacbde7c2e3f503",
+    "vanilla_ae": "e76c30d36d58b1d05635a705bb0463dde6ff15de22d48a5954e2ba06ba38dde8"
+  },
+  "gaussian": {
+    "fit_partition": "test",
+    "test_features": [
+      7000,
+      64
+    ],
+    "samples": 16,
+    "seed": 42,
+    "std_correction": 0,
+    "negative_coordinates": 235,
+    "total_coordinates": 1024,
+    "reproducible": true
+  },
+  "verification": {
+    "classifier_smoke_and_pilot": "PASS",
+    "transpose": "PASS",
+    "decoder_smoke_and_pilot": "PASS",
+    "shared_test": "PASS",
+    "gaussian": "PASS"
+  }
+}

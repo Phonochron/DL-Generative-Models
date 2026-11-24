@@ -1,0 +1,5 @@
+model,run_id,checkpoint,selected_epoch,training_epochs,mean_train_seconds_per_epoch,validation_fid,test_fid,test_images_each,latency_mean_ms_batch64,latency_std_ms_batch64,repeats,seed,sampler,evaluation_run_id,historical_validation_fid,historical_test_fid,historical_latency_mean_ms_batch64,historical_latency_std_ms_batch64
+VAE,phase2-seed42,vae.pt,29,30,8.209465083328542,,87.68658447265625,5000,0.3566359978867695,0.1026366566890519,50,42,,,,,,
+Vanilla GAN,vanilla-gan-seed42,epoch-050.pt,50,50,11.142572383999358,132.81866455078125,116.47064971923828,5000,0.3332460003730375,0.0435471319472632,50,42,,,,,,
+DCGAN,dcgan-joint-seed42,epoch-050.pt,50,50,17.995085917999532,54.149169921875,36.96637725830078,5000,1.0112320006010125,0.1717397983486418,50,42,,,,,,
+DDPM,ddpm-seed42,epoch-030.pt,30,30,18.491838723333785,73.10661315917969,56.156681060791016,5000,708.6073399987072,25.364840557350863,5,42,clipped-x0,ddpm-x0-comparison-seed42,142.95799255371094,128.9947509765625,734.1228599980241,45.4146373927895

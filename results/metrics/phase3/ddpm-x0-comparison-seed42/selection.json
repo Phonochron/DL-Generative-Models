@@ -1,0 +1,26 @@
+{
+  "selected": "clipped-x0",
+  "criterion": "minimum validation FID; ties original",
+  "checkpoint": "results/checkpoints/ddpm/ddpm-seed42/epoch-030.pt",
+  "checkpoint_sha256": "31e6881ea47189b67716726971e78aacbbba1a36a285b79c3464c5b5225ad18f",
+  "epoch": 30,
+  "split_sha256": "2e145a15c45d1fa2130ab476217cd724ed49ace4231f56239448f689aa41b857",
+  "steps": 200,
+  "schedule": "cosine offset=0.008, beta<=0.999",
+  "precision": "FP32",
+  "validation_images_each": 1000,
+  "test_images_each": 5000,
+  "fid_seed": 42,
+  "fid_batch": 64,
+  "fid_rng": "continuous shared stream per sampler",
+  "sample_seeds": [
+    42,
+    43,
+    44
+  ],
+  "sample_reverse_seed": "initial seed + 1",
+  "original_validation_fid_historical": 142.95799255371094,
+  "extractor": "TorchMetrics Inception 2048, antialias=True, normalize=True",
+  "extractor_sha256": "6726825d0af5f729cebd5821db510b11b1cfad8faad88a03f1befd49fb9129b2",
+  "provenance": "AI-assisted local comparison, original weights"
+}
