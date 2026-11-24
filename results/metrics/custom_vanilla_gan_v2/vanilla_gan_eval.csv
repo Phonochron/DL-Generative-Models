@@ -1,0 +1,2 @@
+Model,Epoch,FID Test (N=2048),Latensi Batch 64 (ms)
+Vanilla GAN,50,117.9728012084961,0.35323666719098884

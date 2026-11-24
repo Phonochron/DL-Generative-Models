@@ -1,0 +1,11 @@
+{
+  "test_accuracy_pct": 89.58571428571429,
+  "test_correct": 6271,
+  "test_images": 7000,
+  "target_pct": 88.0,
+  "target_met": true,
+  "classifier_epoch": 22,
+  "decoder_epoch": 28,
+  "vanilla_ae_epoch": 30,
+  "seed": 42
+}

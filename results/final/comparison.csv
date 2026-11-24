@@ -1,0 +1,7 @@
+﻿Model,Laten / derau,Epoch terpilih,Epoch dilatih,Detik/epoch,Sumber waktu,Rekonstruksi (ms/64),Generasi (ms/64),MSE,PSNR (dB),SSIM,FID test (N=2048),Catatan training
+Vanilla AE,64,30,30,1.6204739999957383,Benchmark 1 epoch terpisah,0.6266199993357683,,0.007779,22.1497,0.7981,,Loss train awal/akhir 0.03484/0.00769
+Sparse AE,64,30,30,1.7140521999972407,Benchmark 1 epoch terpisah,0.5537266668397933,,0.008076,21.9816,0.7931,,Loss train awal/akhir 0.0355/0.008366
+VAE,64,29,30,2.113085199991474,Benchmark 1 epoch terpisah,0.5209866668640947,0.2499199996236711,0.013111,19.6557,0.7061,95.01231384277344,Loss train awal/akhir 300.5/241
+Vanilla GAN,100,50,50,3.2906634779990416,Rerata 50 epoch run v2,,0.3532366671909888,,,,117.9728012084961,"Rentang loss G 0.9977–4.48, D 0.2974–1.234"
+DCGAN,100,50,50,3.4360253620013825,Rerata 50 epoch run v2,,0.8315599998847271,,,,43.40328598022461,"Rentang loss G 1.332–2.92, D 0.2364–1.075"
+DDPM,1 x 28 x 28,20,30,5.143249299988383,Benchmark 1 epoch terpisah,,705.6101800000761,,,,67.88597869873047,MSE derau awal/akhir 0.2557/0.08399

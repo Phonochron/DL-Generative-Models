@@ -1,0 +1,100 @@
+﻿Model,Epoch,Metrik validasi,Skor,Terpilih
+Vanilla AE,1,val_mse,0.0194579617024858,False
+Vanilla AE,2,val_mse,0.0160138665246546,False
+Vanilla AE,3,val_mse,0.0140895462258564,False
+Vanilla AE,4,val_mse,0.0128603313991001,False
+Vanilla AE,5,val_mse,0.0120044755852257,False
+Vanilla AE,6,val_mse,0.0115625311403858,False
+Vanilla AE,7,val_mse,0.0109345461119715,False
+Vanilla AE,8,val_mse,0.0105381400216772,False
+Vanilla AE,9,val_mse,0.0102015624088031,False
+Vanilla AE,10,val_mse,0.0099361986321541,False
+Vanilla AE,11,val_mse,0.0096865606836257,False
+Vanilla AE,12,val_mse,0.0094629665630551,False
+Vanilla AE,13,val_mse,0.0092406355521421,False
+Vanilla AE,14,val_mse,0.0090677388694474,False
+Vanilla AE,15,val_mse,0.0089319983724254,False
+Vanilla AE,16,val_mse,0.0088175721905321,False
+Vanilla AE,17,val_mse,0.0086915243276701,False
+Vanilla AE,18,val_mse,0.0085931930875639,False
+Vanilla AE,19,val_mse,0.008502090876721,False
+Vanilla AE,20,val_mse,0.0084331840759811,False
+Vanilla AE,21,val_mse,0.0083699140187255,False
+Vanilla AE,22,val_mse,0.0082650434866591,False
+Vanilla AE,23,val_mse,0.0081980163307301,False
+Vanilla AE,24,val_mse,0.0081494446912937,False
+Vanilla AE,25,val_mse,0.0081166328786065,False
+Vanilla AE,26,val_mse,0.0080555501220525,False
+Vanilla AE,27,val_mse,0.0080091659612627,False
+Vanilla AE,28,val_mse,0.0079653247799887,False
+Vanilla AE,29,val_mse,0.0079258412730937,False
+Vanilla AE,30,val_mse,0.0078939159493404,True
+Sparse AE,1,val_mse,0.0198323245701914,False
+Sparse AE,2,val_mse,0.0158957424775504,False
+Sparse AE,3,val_mse,0.0140409356164515,False
+Sparse AE,4,val_mse,0.0128849225058152,False
+Sparse AE,5,val_mse,0.0121278770157616,False
+Sparse AE,6,val_mse,0.011494692588339,False
+Sparse AE,7,val_mse,0.0110736774411215,False
+Sparse AE,8,val_mse,0.0106730767297327,False
+Sparse AE,9,val_mse,0.01029723057872,False
+Sparse AE,10,val_mse,0.0099844524728313,False
+Sparse AE,11,val_mse,0.0097495620660809,False
+Sparse AE,12,val_mse,0.0095494918378379,False
+Sparse AE,13,val_mse,0.0093839391702813,False
+Sparse AE,14,val_mse,0.0092244947783801,False
+Sparse AE,15,val_mse,0.0090996624471147,False
+Sparse AE,16,val_mse,0.0089600150550419,False
+Sparse AE,17,val_mse,0.0088557357899301,False
+Sparse AE,18,val_mse,0.0087671967553675,False
+Sparse AE,19,val_mse,0.0087186669218992,False
+Sparse AE,20,val_mse,0.0086509193442653,False
+Sparse AE,21,val_mse,0.0085789431580301,False
+Sparse AE,22,val_mse,0.0085025657231189,False
+Sparse AE,23,val_mse,0.0084353228977748,False
+Sparse AE,24,val_mse,0.0083916575707082,False
+Sparse AE,25,val_mse,0.0083586613846937,False
+Sparse AE,26,val_mse,0.0083174590953237,False
+Sparse AE,27,val_mse,0.0083052241155774,False
+Sparse AE,28,val_mse,0.0082963033403669,False
+Sparse AE,29,val_mse,0.0082392051741263,False
+Sparse AE,30,val_mse,0.0081793195652197,True
+VAE,1,val_mse,0.0282697635350352,False
+VAE,2,val_mse,0.0230640813532793,False
+VAE,3,val_mse,0.0207923419607624,False
+VAE,4,val_mse,0.0180033220786047,False
+VAE,5,val_mse,0.0168439444939527,False
+VAE,6,val_mse,0.0162952565674184,False
+VAE,7,val_mse,0.015654374459047,False
+VAE,8,val_mse,0.0153901562482205,False
+VAE,9,val_mse,0.0151241569185395,False
+VAE,10,val_mse,0.0148831748851186,False
+VAE,11,val_mse,0.0146742388222029,False
+VAE,12,val_mse,0.0144905371930091,False
+VAE,13,val_mse,0.0142911776884651,False
+VAE,14,val_mse,0.0141211605238844,False
+VAE,15,val_mse,0.0140817132399311,False
+VAE,16,val_mse,0.0138483721674705,False
+VAE,17,val_mse,0.0138672322643046,False
+VAE,18,val_mse,0.013823263652123,False
+VAE,19,val_mse,0.013683745403679,False
+VAE,20,val_mse,0.0136430186947302,False
+VAE,21,val_mse,0.01357198396021,False
+VAE,22,val_mse,0.0134925621633279,False
+VAE,23,val_mse,0.0134772475217591,False
+VAE,24,val_mse,0.0135090338815405,False
+VAE,25,val_mse,0.0134332094998818,False
+VAE,26,val_mse,0.0133160012804036,False
+VAE,27,val_mse,0.0132466111697538,False
+VAE,28,val_mse,0.0132206258634784,False
+VAE,29,val_mse,0.0131885328376258,True
+VAE,30,val_mse,0.0132117509980938,False
+Vanilla GAN,15,val_cnn_fid,109.1161473800812,False
+Vanilla GAN,30,val_cnn_fid,47.85407352443952,False
+Vanilla GAN,50,val_cnn_fid,24.15893399056949,True
+DCGAN,15,val_cnn_fid,93.10029504282012,False
+DCGAN,30,val_cnn_fid,58.418241089948765,False
+DCGAN,50,val_cnn_fid,52.38146251635919,True
+DDPM,10,val_cnn_fid,226.3504577237993,False
+DDPM,20,val_cnn_fid,89.40401881529897,True
+DDPM,30,val_cnn_fid,95.61540250719304,False

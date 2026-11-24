@@ -1,0 +1,4 @@
+,Dimensi Laten,MSE (piksel^2),PSNR (dB),SSIM
+Proyeksi Transpos Laten MLP,64.0,0.298296,5.3017,0.0746
+Decoder Beku (MLP 64-D),64.0,0.017384,18.4067,0.6599
+Vanilla AE (64-D),64.0,0.007779,22.1497,0.7981

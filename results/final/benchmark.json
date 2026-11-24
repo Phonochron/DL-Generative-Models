@@ -1,0 +1,67 @@
+{
+  "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "torch": "2.11.0+cu128",
+  "seed": 42,
+  "split_sha256": "2e145a15c45d1fa2130ab476217cd724ed49ace4231f56239448f689aa41b857",
+  "epoch_seconds": {
+    "vanilla_ae": 1.6204739999957383,
+    "sparse_ae": 1.7140521999972407,
+    "vae": 2.113085199991474,
+    "ddpm": 5.143249299988383
+  },
+  "reconstruction_ms_64": {
+    "vanilla_ae": 0.6266199993357683,
+    "sparse_ae": 0.5537266668397933,
+    "vae": 0.5209866668640947
+  },
+  "interpolation": {
+    "source_test_indices": [
+      49223,
+      65946
+    ],
+    "source_classes": [
+      0,
+      9
+    ],
+    "vanilla_gan": {
+      "seed": 43,
+      "candidate_count": 1024,
+      "predicted_classes": [
+        0,
+        9
+      ],
+      "noise_row_indices": [
+        310,
+        86
+      ],
+      "scores": [
+        0.9998072981834412,
+        1.0
+      ]
+    },
+    "dcgan": {
+      "seed": 43,
+      "candidate_count": 1024,
+      "predicted_classes": [
+        0,
+        9
+      ],
+      "noise_row_indices": [
+        340,
+        41
+      ],
+      "scores": [
+        0.9998849630355835,
+        1.0
+      ]
+    }
+  },
+  "fid_test_images": 2048,
+  "mlp_prior_demo": {
+    "seed": 42,
+    "device": "cpu",
+    "zero_sd_dimensions": 12,
+    "negative_coordinates": 178,
+    "total_coordinates": 640
+  }
+}

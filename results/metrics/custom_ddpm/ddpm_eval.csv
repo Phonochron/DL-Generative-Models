@@ -1,0 +1,2 @@
+Model,Epoch,FID Test (N=2048),Latensi Batch 64 (ms)
+DDPM,20,67.88597869873047,705.6101800000761
