@@ -1,5 +1,6 @@
 /data/
 /results/training/
+/report/TUGAS_DL_SESI07_*.pdf
 .ipynb_checkpoints/
 __pycache__/
 .venv/
